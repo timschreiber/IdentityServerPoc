@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerPoc.IdentityServer", "IdentityServerPoc.IdentityServer\IdentityServerPoc.IdentityServer.csproj", "{4286EEFB-B37F-4CC6-802D-02DE40792AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerPoc.ImplicitMvc1", "IdentityServerPoc.ImplicitMvc1\IdentityServerPoc.ImplicitMvc1.csproj", "{B1F0396A-52A2-457B-8A7C-A4C6B1DBFC77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4286EEFB-B37F-4CC6-802D-02DE40792AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4286EEFB-B37F-4CC6-802D-02DE40792AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4286EEFB-B37F-4CC6-802D-02DE40792AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4286EEFB-B37F-4CC6-802D-02DE40792AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F0396A-52A2-457B-8A7C-A4C6B1DBFC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F0396A-52A2-457B-8A7C-A4C6B1DBFC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F0396A-52A2-457B-8A7C-A4C6B1DBFC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F0396A-52A2-457B-8A7C-A4C6B1DBFC77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

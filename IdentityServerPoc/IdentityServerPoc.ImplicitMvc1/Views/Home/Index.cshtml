@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "ASP.NET MVC Implicit Flow Client #1";
+}
+
+<div class="jumbotron">
+    <h1>@ViewBag.Title</h1>
+    <p class="lead">An IdentityServer 3 Client (IdentityServerPoc)</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <dl>
+                @foreach (var claim in System.Security.Claims.ClaimsPrincipal.Current.Claims)
+                {
+                    <dt>@claim.Type</dt>
+                    <dt>@claim.Value</dt>
+                }
+            </dl>
+        }
+        else
+        {
+            <p>Anonymous.</p>
+        }
+    </div>
+</div>
+
